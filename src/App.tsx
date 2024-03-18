@@ -6,7 +6,6 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <div>DOES THIS WORK</div>
     </div>
   );
 };
