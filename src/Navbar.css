@@ -1,0 +1,47 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Add some padding around the contents */
+  height: 130px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-contact-info {
+  width: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  font-size: small;
+}
+
+.navbar-social-links .social-link {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+}
+
+.under-tag {
+  margin-top: 0.5rem; /* Adds margin only to the INSTAGRAM link */
+}
+
+.sidebar-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 46px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-contact-info,
+  .navbar-social-links {
+    display: none;
+  }
+}
