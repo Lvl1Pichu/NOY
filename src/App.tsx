@@ -8,7 +8,6 @@ const App: React.FC = () => {
     <div className="App">
       <Navbar></Navbar>
       <FullViewportContainer></FullViewportContainer>
-      <FullViewportContainer></FullViewportContainer>
     </div>
   );
 };

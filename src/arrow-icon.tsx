@@ -6,15 +6,17 @@ const ArrowIcon = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Determine the scroll position here and set isInView accordingly
-      const arrowPosition = document
-        .getElementById("arrow-icon")
-        .getBoundingClientRect().top;
-      const screenHeight = window.innerHeight;
-      if (arrowPosition < screenHeight && arrowPosition > 0) {
-        setIsInView(true);
-      } else {
-        setIsInView(false);
+      const arrowElement = document.getElementById("arrow-icon");
+
+      if (arrowElement) {
+        const arrowPosition = arrowElement.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
+
+        if (arrowPosition < screenHeight && arrowPosition > 0) {
+          setIsInView(true);
+        } else {
+          setIsInView(false);
+        }
       }
     };
 
