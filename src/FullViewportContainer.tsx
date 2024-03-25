@@ -1,5 +1,6 @@
 import "./App.css";
 import "./FullViewportContainer.css";
+import ArrowIcon from "./arrow-icon";
 
 const FullViewportContainer = () => {
   return (
@@ -14,6 +15,7 @@ const FullViewportContainer = () => {
             We are strategic and creative thinkers who set the course for what
             your brand should do, and not just could do.
           </h2>
+          <ArrowIcon></ArrowIcon>
         </div>
       </div>
     </div>
