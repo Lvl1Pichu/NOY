@@ -1,4 +1,3 @@
-/* Style for the sidebar */
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -16,7 +15,8 @@
 }
 
 .sidebar.open {
-  width: 300px;
+  width: 450px;
+  
 }
 
 .sidebar a {
@@ -68,29 +68,27 @@
   height: 100%;
 }
 
-/* Before and After pseudo-elements to create the two lines of the 'X' */
 .closebtn span::before,
 .closebtn span::after {
   position: absolute;
   content: "";
-  height: 3px; /* The thickness of the 'X' */
-  background-color: white; /* Color of the 'X' */
+  height: 3px;
+  background-color: white;
   top: 50%;
   left: 50%;
 }
 
 .closebtn span::before {
   /* Longer line */
-  width: 140%; /* Full length of the button */
+  width: 140%;
   transform: translateX(-50%) translateY(-50%) rotate(66deg);
 }
 
 .closebtn span::after {
   /* Shorter line */
-  width: 120%; /* Adjust for shorter length */
+  width: 120%;
   transform: translateX(-45%) translateY(-50%) rotate(-25deg);
 }
-/* Style for the sidebar button */
 .sidebar-btn {
   font-size: 36px;
   cursor: pointer;
@@ -99,7 +97,6 @@
   background-color: transparent;
 }
 
-/* When you mouse over the sidebar button, change their color */
 .sidebar-btn:hover {
   color: #f1f1f1;
 }

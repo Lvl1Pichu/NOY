@@ -2,8 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px; /* Add some padding around the contents */
-  height: 130px;
+  padding: 10px 20px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
 }
 
 .navbar-logo {
@@ -28,7 +33,7 @@
 }
 
 .under-tag {
-  margin-top: 0.5rem; /* Adds margin only to the INSTAGRAM link */
+  margin-top: 0.5rem;
 }
 
 .sidebar-btn {
@@ -37,6 +42,7 @@
   color: #fff;
   font-size: 46px;
   cursor: pointer;
+  margin-right: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
