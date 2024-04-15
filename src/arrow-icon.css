@@ -1,19 +1,30 @@
 @keyframes pulse-animation {
-    0% { transform: scale(1); }
-    25% { transform: scale(1.2); }
-    50% { transform: scale(0.9); }
-    75% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
   }
-  
-  .arrow-icon {
-    display: inline-block;
-    transition: transform 0.3s;
-    animation: pulse-animation 2.5s infinite;
-    animation-play-state: paused;
+  25% {
+    transform: scale(1.2);
   }
-  
-  .arrow-icon.animated {
-    animation-play-state: running;
+  50% {
+    transform: scale(0.9);
   }
-  
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s;
+  animation: pulse-animation 2.5s infinite;
+  animation-play-state: paused;
+  font-size: 36px;
+  rotate: 90;
+}
+
+.arrow-icon.animated {
+  animation-play-state: running;
+}

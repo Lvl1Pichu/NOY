@@ -1,35 +1,36 @@
-
 .full-viewport-container {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(270deg, rgb(251, 98, 48) 0%, rgb(252, 91, 65) 40%, rgb(252, 120, 79) 60%, rgb(252, 169, 54) 100%) ;
-    color: white;
-    text-align: left;
-  }
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/Cap-girl.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: white;
+  text-align: left;
+}
 
-  .headline{
-    margin: unset;
-    font-weight: normal;
-    font-size: 5vw;
-    line-height: 6.5vw;
-  }
+.headline {
+  margin: unset;
+  font-weight: normal;
+  font-size: 5vw;
+  line-height: 6.5vw;
+}
 
-  .headline:nth-child(2){
+.headline:nth-child(2) {
   color: #000;
 }
 
-.copy{
-    width: 95%;
-    display: inline-block;
+.copy {
+  width: 95%;
+  display: inline-block;
 }
 
-.hero-content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: initial;
-    color: #FFF;
-    width: 95%;
+.hero-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: initial;
+  color: #fff;
+  width: 95%;
 }
-

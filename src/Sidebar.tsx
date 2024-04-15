@@ -15,8 +15,6 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       <a href="#">WE</a>
       <a href="#">PROCESS</a>
       <a href="#">CULTURE</a>
-      <a href="#">NEW NOW</a>
-      <a href="#">THE STUDIO</a>
       <a href="#">LET’S CHAT</a>
       <div className="divider"></div>
       <a href="#">Instagram</a>

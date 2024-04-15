@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Arrow-icon.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const ArrowIcon = () => {
   const [isInView, setIsInView] = useState(false);
@@ -29,7 +31,7 @@ const ArrowIcon = () => {
 
   return (
     <div id="arrow-icon" className={`arrow-icon ${isInView ? "animated" : ""}`}>
-      <h2>PIL</h2>
+      <FontAwesomeIcon icon={faArrowRight} />
     </div>
   );
 };
