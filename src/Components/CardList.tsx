@@ -34,6 +34,16 @@ const CardList: React.FC = () => {
       subtitle: "...over here.",
     },
     { icon: "otter", title: "Projekt 6", subtitle: "Supercoolt projekt" },
+    {
+      icon: "person-from-portal",
+      title: "Projekt 5",
+      subtitle: "...over here.",
+    },
+    {
+      icon: "person-from-portal",
+      title: "Projekt 5",
+      subtitle: "...over here.",
+    },
   ];
 
   useCardMouseTracker("cards");

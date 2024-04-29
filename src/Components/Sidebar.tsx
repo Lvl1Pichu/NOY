@@ -9,7 +9,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   return (
     <div className={`sidebar ${isOpen ? "open" : ""}`}>
-      <a className="closebtn" href="#" onClick={onClose}>
+      <a className="closebtn" onClick={onClose}>
         <span></span>
       </a>
       <a href="#">WE</a>
