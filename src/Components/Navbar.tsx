@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./Sidebar.css";
-import "./Navbar.css";
+import "../Style/Sidebar.css";
+import "../Style/Navbar.css";
 
 const Navbar: React.FC = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);

@@ -1,10 +1,12 @@
 .full-viewport-container {
   height: 100vh;
   width: 100%;
-  background-image: url("./assets/Cap-girl.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background: linear-gradient(
+    to right,
+    #cbc3e3,
+    #6a0dad,
+    #0504aa
+  ); /* Professional purple to royal blue gradient */
   color: white;
   text-align: left;
 }

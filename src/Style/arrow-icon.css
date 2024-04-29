@@ -18,6 +18,7 @@
 
 .arrow-icon {
   display: inline-block;
+  color: white;
   transition: transform 0.3s;
   animation: pulse-animation 2.5s infinite;
   animation-play-state: paused;

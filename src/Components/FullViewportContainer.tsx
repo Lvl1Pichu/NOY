@@ -1,6 +1,6 @@
-import "./App.css";
-import "./FullViewportContainer.css";
-import ArrowIcon from "./arrow-icon";
+import "../Style/App.css";
+import "../Style/FullViewportContainer.css";
+import ArrowIcon from "../Components/arrow-icon";
 
 const FullViewportContainer = () => {
   return (
@@ -13,9 +13,8 @@ const FullViewportContainer = () => {
           </h2>
           <h2 className="headline">
             We are strategic and creative thinkers who set the course for what
-            your brand should do, and not just could do.
+            your brand should do, and not just could do. <ArrowIcon></ArrowIcon>
           </h2>
-          <ArrowIcon></ArrowIcon>
         </div>
       </div>
     </div>
