@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./CardComponent";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
 import "../Style/Cards.css";
+import useCardMouseTracker from "./CardMouseTracker";
 
 interface CardData {
   icon: IconName;
@@ -35,16 +36,20 @@ const CardList: React.FC = () => {
     { icon: "otter", title: "Projekt 6", subtitle: "Supercoolt projekt" },
   ];
 
+  useCardMouseTracker("cards");
+
   return (
-    <div id="cards">
-      {cards.map((card, index) => (
-        <Card
-          key={index}
-          icon={card.icon}
-          title={card.title}
-          subtitle={card.subtitle}
-        />
-      ))}
+    <div className="card-container">
+      <div id="cards">
+        {cards.map((card, index) => (
+          <Card
+            key={index}
+            icon={card.icon}
+            title={card.title}
+            subtitle={card.subtitle}
+          />
+        ))}
+      </div>
     </div>
   );
 };

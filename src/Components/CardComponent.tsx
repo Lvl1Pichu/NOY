@@ -13,11 +13,11 @@ const Card: React.FC<CardProps> = ({ icon, title, subtitle }) => {
     <div className="card">
       <div className="card-content">
         <div className="card-image">
-          <i className={`fa-duotone ${icon}`}></i>
+          <i className={`${icon}`}></i>
         </div>
         <div className="card-info-wrapper">
           <div className="card-info">
-            <i className={`fa-duotone ${icon}`}></i>
+            <i className={`${icon}`}></i>
             <div className="card-info-title">
               <h3>{title}</h3>
               <h4>{subtitle}</h4>
