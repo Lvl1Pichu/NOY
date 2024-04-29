@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar";
 import "./Style/App.css";
 import FullViewportContainer from "./Components/FullViewportContainer";
 import CardList from "./Components/CardList";
+import GridComponent from "./Components/CompanyGrid";
+import { companyLogos } from "./CompanyData";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +12,7 @@ const App: React.FC = () => {
       <Navbar></Navbar>
       <FullViewportContainer></FullViewportContainer>
       <CardList></CardList>
+      <GridComponent companies={companyLogos}></GridComponent>
     </div>
   );
 };
