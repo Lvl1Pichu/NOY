@@ -1,6 +1,6 @@
-import "./App.css";
-import "./FullViewportContainer.css";
-import ArrowIcon from "./arrow-icon";
+import "../Style/App.css";
+import "../Style/FullViewportContainer.css";
+import ArrowIcon from "../Components/arrow-icon";
 
 const FullViewportContainer = () => {
   return (

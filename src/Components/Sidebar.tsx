@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.css";
+import "../Style/Sidebar.css";
 
 interface SidebarProps {
   isOpen: boolean;

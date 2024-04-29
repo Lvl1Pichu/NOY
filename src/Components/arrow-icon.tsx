@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Arrow-icon.css";
+import "../Style/arrow-icon.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
